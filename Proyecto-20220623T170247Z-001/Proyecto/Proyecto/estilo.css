@@ -1,0 +1,888 @@
+/* código para que las cards se pongan una al lado de la otra */
+.card {
+	/*display: inline-flex;*/
+	width:300px;
+	height: 450px;
+	/*padding-left:60px;*/
+    text-align: center;
+
+}
+
+
+#titulocar {
+
+font-weight: bold;
+font-family: serif;
+font-weight: bolder;
+font-size:x-large;
+
+
+}
+
+
+
+/* código para la barra menú de arriba de la página */
+
+.barra {
+	/*display: flex;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.barra2 {
+    float: right;
+}
+.titulo{
+
+float: left;
+color: whitesmoke;
+}
+
+.barra3 {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.barra3:hover {
+    background-color: #111;
+}
+
+/*código para el menu de categorias  */
+
+.card-group{
+display: inline-flex;
+margin-left: 70px;
+
+
+}
+.paginacion{
+
+margin-left: 70px;
+
+}
+
+
+/*código para la página del login*/
+
+#bienvenida {
+
+color: darkblue;
+text-align: center;
+ font-family: sans-serif;
+}
+
+
+
+#opcion {
+
+text-align: center;
+font-family: Arial;
+
+}
+
+/*Código para colocar el div que incluye al formulario en el centro de la página web */
+/*
+#login {
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 640px;
+    height: 120px;
+    margin-left: -320px;
+    margin-top: -60px;
+    font-size: 24px;
+
+
+}*/
+
+#formulario_acceso {
+
+ position: relative;
+    top: 20%;
+    left: 50%;
+    right: 50%;
+    width: 640px;
+    height: 120px;
+    margin-left: -320px;
+   /* margin-top: -60px;*/
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    float: center;
+    align-content: center;
+    text-align: center;
+
+
+
+}
+
+.mensaje_bienvenida{
+
+color: darkblue;
+text-align: center;
+font-family: cursive;
+
+
+
+}
+
+#tabla1 {
+
+ width: 40%;
+ height: 30px;
+ text-align: center;
+
+ float: right;
+ margin-left: 30px;
+margin-top: 10px;
+display: none;
+
+}
+
+
+
+#tabla2 {
+
+ width: 40%;
+ height: 30px;
+ text-align: center;
+
+ float: right;
+ margin-right: 30px;
+margin-top: 10px;
+display: none;
+
+}
+
+#hover:hover {
+
+    background-color: skyblue;
+}
+
+#botones_crear {
+
+text-align: center;
+
+
+}
+
+#crear_anuncio {
+background-color: steelblue;
+text-align: center;
+border: none;
+color: whitesmoke;
+padding: 10px 24px;
+display: inline-block;
+font-family: sans-serif;
+font-size: 18px;
+border-radius: 12px;
+transition-duration: 0.4s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+
+
+#crear_anuncio_pieza {
+background-color:steelblue;
+text-align: center;
+border: none;
+color: whitesmoke;
+padding: 10px 24px;
+display: inline-block;
+font-family: sans-serif;
+border-radius: 12px;
+font-size: 18px;
+transition-duration: 0.4s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+#crear_anuncio_pieza:hover {
+background-color: lightgreen;
+  color: black;
+
+}
+
+#crear_anuncio:hover {
+background-color: lightgreen;
+  color: black;
+
+
+}
+
+
+#estilo_perfil {
+background-color: skyblue;
+text-align: center;
+padding-right: 5%;
+padding-left: 5%;
+ border: 1px solid gray;
+  padding: 8px;
+
+}
+
+#miperfil {
+color: darkblue;
+text-transform: uppercase;
+
+}
+
+#ocultar_coche {
+background-color:lightblue;
+text-align: center;
+border: none;
+color: darkblue;
+padding: 10px 24px;
+display: inline-block;
+font-family: sans-serif;
+border-radius: 50px;
+font-size: 18px;
+transition-duration: 0.4s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+#ocultar_piezas {
+background-color:lightblue;
+text-align: center;
+border: none;
+color: darkblue;
+padding: 10px 24px;
+display: inline-block;
+font-family: sans-serif;
+border-radius: 50px;
+font-size: 18px;
+transition-duration: 0.4s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+#ocultar_piezas:hover {
+background-color: royalblue;
+  color: black;
+
+}
+
+#ocultar_coche:hover {
+background-color: royalblue;
+  color: black;
+
+
+}
+
+
+
+
+
+
+#anunciospublicados {
+
+color: darkcyan;
+text-align: center; 
+
+}
+
+#imagenlogo {
+
+width:500px;
+height: 600px;
+float: left;
+margin-left: 200px;
+
+}
+
+#botonesocultar {
+
+text-align: center;
+
+}
+
+.card-text {
+
+
+
+}
+
+.categoriasCP {
+
+text-align: center;
+margin-left: 200px;
+
+}
+
+#acceso_coches{
+background-color: dimgrey;
+text-align: center;
+border: none;
+color: whitesmoke;
+padding: 10px 24px;
+display: inline-block;
+font-family: sans-serif;
+font-size: 18px;
+border-radius: 12px;
+transition-duration: 0.4s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+
+
+#acceso_piezas{
+background-color: dimgrey;
+text-align: center;
+border: none;
+color: whitesmoke;
+padding: 10px 24px;
+display: inline-block;
+font-family: sans-serif;
+font-size: 18px;
+border-radius: 12px;
+transition-duration: 0.4s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+
+#acceso_coches:hover {
+background-color: lightgreen;
+  color: black;
+
+
+}
+
+#acceso_piezas:hover {
+background-color: lightgreen;
+  color: black;
+
+
+}
+
+
+
+
+/*codigo para los estilos de pie de pagina*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #333;
+  color: white;
+  
+}
+
+#fijo {
+      position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* código para crear un anuncio de coche nuevo*/
+
+#titulo_coche, #descripcion_coche, #marca_coche, #anio_coche, 
+#motor_coche, #km_coche, #precio_coche, #tipo_coche {
+
+border: 2px solid blue;
+border-radius: 4px;
+
+
+
+
+}
+
+
+#formulario_coche {
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    right: 50%;
+    width: 600px;
+    height: 200px;
+    margin-left: -320px;
+    margin-top: -60px;
+    font-size: 24px;
+
+
+
+
+}
+
+#coche_crear_anuncio {
+
+  border-radius: 5px;
+  background-color: lightskyblue;
+  padding: 20px;
+
+
+
+}
+
+#id_autor_coche {
+
+display: none;
+
+}
+
+#titulo_anun {
+
+color: darkblue;
+text-align: center;
+font-family: sans-serif;
+font-size: 40px;
+font-weight: bold;
+
+} 
+
+
+#titulo, #descripcion, #marca, #anio, 
+#motor, #km, #precio, #tipo, #imagen, #autor {
+
+color: royalblue;
+font-weight: bold;
+font-family: sans-serif;
+
+
+}
+
+#botoncrear {
+text-align: center;
+background-color:darkblue;
+text-align: center;
+border: none;
+color: whitesmoke;
+padding: 18px 22px;
+display: inline-block;
+font-family: sans-serif;
+font-size: 24px;
+border-radius: 12px;
+transition-duration: 0.4s;
+
+}
+
+
+
+/* código para crear un anuncio de pieza nuevo*/
+
+#titulo_pieza, #estado_pieza, #descripcion_pieza, #marca_pieza, #anio_pieza, #precio_pieza {
+
+border: 2px solid blue;
+border-radius: 4px;
+
+
+}
+
+
+#formulario_coche {
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    right: 50%;
+    width: 600px;
+    height: 200px;
+    margin-left: -320px;
+    margin-top: -60px;
+    font-size: 24px;
+
+
+
+
+}
+
+#coche_crear_anuncio {
+
+  border-radius: 5px;
+  background-color: lightskyblue;
+  padding: 20px;
+
+
+
+}
+
+#id_autor_coche {
+
+display: none;
+
+}
+
+#titulo_anun {
+
+color: darkblue;
+text-align: center;
+font-family: sans-serif;
+font-size: 40px;
+font-weight: bold;
+
+} 
+
+
+#titulo, #descripcion, #marca, #anio, 
+#motor, #km, #precio, #tipo, #imagen, #autor, #estado, #estado_p {
+
+color: royalblue;
+font-weight: bold;
+font-family: sans-serif;
+
+
+}
+
+#botoncrear {
+text-align: center;
+background-color:darkblue;
+text-align: center;
+border: none;
+color: whitesmoke;
+padding: 18px 22px;
+display: inline-block;
+font-family: sans-serif;
+font-size: 24px;
+border-radius: 12px;
+transition-duration: 0.4s;
+
+}
+
+
+/*codigo para el mensaje que aparece a la hora de crear un anuncio (tanto d piezas como de coches)*/
+
+#anunciopubli {
+
+color: darkblue;
+text-align: center;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 20px;
+
+
+
+}
+
+/*código para los formularios de borrar anuncios*/
+
+#elimi_C {
+
+background-color: skyblue;
+text-align: center;
+position: relative;
+margin-left: 500px;
+margin-right:500px;
+
+margin-bottom: 100px;
+
+}
+
+#titulo_elim {
+
+font-family: serif;
+font-weight: bold;
+font-size: 20px;
+color: slateblue;
+
+
+
+}
+
+
+#id_borrarcoche, #ocultar_id, #id_borrarpieza {display: none;}
+
+
+
+
+/*codigo para el icono que sube hacia arriba de la pagina web*/
+.subir {
+    display:none;
+    background:darkgrey;
+    cursor:pointer;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    padding:20px;
+    font-size:20px;
+}
+
+
+/*codigo para el boton de eliminar anuncios (coches y piezas)*/
+
+#boton_eliminar{
+
+background-color: dimgrey;
+text-align: center;
+border: none;
+color: whitesmoke;
+padding: 10px 24px;
+display: inline-block;
+font-family: sans-serif;
+font-size: 18px;
+border-radius: 12px;
+transition-duration: 0.4s;
+
+}
+
+
+/*código para los formularios de modificar anuncios*/
+
+#modifi_C {
+
+  
+/*margin-left: 650px;
+margin-right:700px;*/
+background-color: skyblue;
+text-align: center;
+position: relative;
+margin-left: 500px;
+margin-right:500px;
+
+margin-bottom: 100px;
+}
+
+#titulo_m {
+
+font-family: serif;
+font-weight: bold;
+font-size: 20px;
+color: slateblue;
+
+
+
+}
+
+
+#id_modificarcoche, #ocultar_id, #id_modificarpieza {display: none;}
+
+#boton_modificar{
+background-color: dimgrey;
+text-align: center;
+border: none;
+color: whitesmoke;
+padding: 10px 24px;
+display: inline-block;
+font-family: sans-serif;
+font-size: 18px;
+border-radius: 12px;
+transition-duration: 0.4s;
+
+}
+
+/*codigo para ocultar el id del autor a la hora de enviar un mensaje*/
+#idautor {display: none;}
+
+/*código para el formulario de enviar el mensaje*/
+#form_mensaje{
+background-color: dimgrey;
+text-align: center;
+position: relative;
+margin-left: 500px;
+margin-right:500px;
+
+margin-bottom: 100px;
+
+margin-top: 100px;
+
+}
+
+/*código para las letras del formulario del mensaje*/
+
+#mensaje_F{
+
+color: blanchedalmond;
+font-weight: bold;
+font-size: 22px;
+font-family: sans-serif;
+
+
+}
+
+/*código para el boton de enviar mensaje*/
+#boton_mensaje{
+
+background-color: blanchedalmond;
+text-align: center;
+border: none;
+color: black;
+padding: 10px 24px;
+display: inline-block;
+font-family: sans-serif;
+font-size: 18px;
+border-radius: 12px;
+transition-duration: 0.4s;
+
+
+
+}
+
+
+/*código para decir que el mensaje se envió con éxito*/
+
+#mensaje_envio{
+
+color: blue;
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+
+}
+
+#imagenlogo{
+/*float: center;*/
+ display: flex;
+ justify-content: center;
+}
+
+
+/*codigo para el formulario de registro*/
+#letra_R{
+color: blue;
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+
+}
+
+#enviar_R{
+background-color: skyblue;
+
+
+}
+
+#enviar_A{
+
+position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 640px;
+    height: 120px;
+    margin-left: -320px;
+    margin-top: -60px;
+    font-size: 24px;
+
+}
+
+
+#tarjetaA{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+#contenidoA{
+
+  justify-content: center;
+ text-align: center;
+}
+
+
+#ventana_modal{
+color: black;
+
+}
+
+#enviar_mensaje{
+color: black;
+
+
+}
+
+
+#busqueda{
+
+text-align: left;
+margin-left: 70px;
+
+}
+
+/*Código para el título de buscar (coches y repuestos)*/
+#buscarR{
+text-align: center;
+color: blue;
+font-weight: bold;
+
+
+}
+
+/*Código para el botón de búsqueda*/
+
+#search{
+background-color: grey; 
+color: white;
+padding: 4px 15px;
+}
+
+
+
+
+/*.card-link {
+
+background-color: white;
+
+}*/
+
+/*
+#popup {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+ 
+.content-popup {
+    margin:0px auto;
+    margin-top:120px;
+    position:relative;
+    padding:10px;
+    width:500px;
+    min-height:250px;
+    border-radius:4px;
+    background-color:#FFFFFF;
+    box-shadow: 0 2px 5px #666666;
+}
+ 
+.content-popup h2 {
+    color:#48484B;
+    border-bottom: 1px solid #48484B;
+    margin-top: 0;
+    padding-bottom: 4px;
+}
+ 
+.popup-overlay {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display:none;
+    background-color: #777777;
+    cursor: pointer;
+    opacity: 0.7;
+}
+ 
+.close {
+    position: absolute;
+    right: 15px;
+}*/
+
+/*Código para el reloj que se muestra en la pagina principal y en la de las piezas*/
+.reloj { width: 150px; 
+    height: 30px; 
+    border: 1px solid black; 
+    font-weight: bold;
+    font-size: 18px;
+    font-family: serif;
+    text-align: center;
+    float: right; 
+    margin: 1em 3em 1em 1em; }
+
+
+
